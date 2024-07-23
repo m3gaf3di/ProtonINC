@@ -134,7 +134,7 @@ const Contact = () => {
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
-        <a href="https://www.linkedin.com//">
+        <a href="https://tn.linkedin.com/in/med-fedi-sghaier-aa1756154">
           <img src={LinkedId} alt="LinkedId" />
         </a>
         <a href="https://twitter.com/">
