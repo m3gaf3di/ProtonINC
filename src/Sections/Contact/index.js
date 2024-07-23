@@ -140,7 +140,7 @@ const Contact = () => {
         <a href="https://twitter.com/">
           <img src={Twitter} alt="Twitter" />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/thegr8fedi//">
           <img src={Instagram} alt="Instagram" />
         </a>
       </Icons>
