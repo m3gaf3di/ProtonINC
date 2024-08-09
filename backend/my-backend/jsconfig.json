@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "module": "NodeNext", // added for ts test 
     "moduleResolution": "nodenext",
     "target": "ES2021",
     "checkJs": true,
