@@ -230,9 +230,15 @@ const Header = () => {
       });
     }
   }, []);
+  let [height,setHeight]=useState(window.innerHeight)
+  useEffect(()=>{
+    window.onscroll = ()=>{
+      setHeight(window.scrollY)
+    }
+  },[])
 
   return (
-    <Headers ref={ref}>
+    <Headers ref={ref} style={{opacity: height < 100 ? 1 : 1 - height * 0.0001}} >
       <Logo>
         <img src={logo} alt="ProtonINC" />
         <h3>ProtonINC</h3>
